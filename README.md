@@ -1,10 +1,14 @@
 # Final Task using Prolog (Implementation odbc and create read from database MySQL)
 
-Install library ODBC in SWI-Prolog
+Persist that database configuration is valid
 
 Open SWI-Prolog then do
 
+Install library ODBC in SWI-Prolog
+
+```sh
 ?- pack_install(odbc).
+```
 
 ## Consult
 
