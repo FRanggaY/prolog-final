@@ -2,55 +2,56 @@
 
 Install library ODBC in SWI-Prolog
 
-?- pack_install(odbc).
+Open SWI-Prolog then do
 
+?- pack_install(odbc).
 
 ## Consult
 
-'''sh
+```sh
 consult mahasiswa.pl
-'''
+```
 
 ## Connect
 
-'''sh
+```sh
 connect_to_db.
-'''
+```
 
 ## INSERT DATA
 
 add mahasiswa
-'''sh
+```sh
 add_mahasiswa(NIM, Nama, Jurusan).
-'''
+```
 
-'''sh
+```sh
 add_dosen(KodeDosen, NamaDosen).
-'''
+```
 
-'''sh
+```sh
 add_mata_kuliah(KodeMataKuliah, NamaMataKuliah).
-'''
+```
 
-'''sh
+```sh
 add_nilai(NIM, KodeMataKuliah, Nilai).
-'''
+```
 
 ## READ DATA
 
 add mahasiswa
-'''sh
+```sh
 show_mahasiswa.
-'''
+```
 
-'''sh
+```sh
 show_dosen.
-'''
+```
 
-'''sh
+```sh
 show_mata_kuliah.
-'''
+```
 
-'''sh
+```sh
 show_nilai.
-'''
+```
