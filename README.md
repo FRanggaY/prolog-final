@@ -29,33 +29,39 @@ add mahasiswa
 add_mahasiswa(NIM, Nama, Jurusan).
 ```
 
+add dosen
 ```sh
 add_dosen(KodeDosen, NamaDosen).
 ```
 
+add mata kuliah
 ```sh
 add_mata_kuliah(KodeMataKuliah, NamaMataKuliah).
 ```
 
+add nilai
 ```sh
 add_nilai(NIM, KodeMataKuliah, Nilai).
 ```
 
 ## READ DATA
 
-add mahasiswa
+read mahasiswa
 ```sh
 show_mahasiswa.
 ```
 
+read dosen
 ```sh
 show_dosen.
 ```
 
+read mata kuliah
 ```sh
 show_mata_kuliah.
 ```
 
+read nilai
 ```sh
 show_nilai.
 ```
